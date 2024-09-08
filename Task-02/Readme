@@ -1,1 +1,37 @@
+K-Means Clustering for Retail Store Customer Segmentation
+Project Overview
+This project aims to group customers of a retail store based on their purchase history using the K-Means clustering algorithm. 
+The goal is to identify distinct customer segments that can be targeted with tailored marketing strategies and promotions.
 
+Project Steps:-
+
+Data Preparation:
+ Data Collection: Collected customer purchase history data, including features such as annual income, spending score, and demographics.
+ Preprocessing: Scaled the data to ensure all features have equal influence on the clustering process.
+
+Determining Optimal Clusters:
+ Elbow Method: Used to determine the optimal number of clusters by plotting the Sum of Squared Distances (SSD) for different values of K.
+ Silhouette Score: Assessed clustering quality for different numbers of clusters to find the best K that maximizes the silhouette score.
+
+Clustering:
+ Applied the K-Means algorithm with the identified optimal number of clusters.
+ Analyzed cluster centers to understand the typical profile of each customer segment.
+
+Results Analysis:
+ Cluster Characteristics: Summarized average features (e.g., age, income, spending score) of each cluster to gain insights into different customer groups.
+ Visualization: Created 3D scatter plots to visually represent customer segments based on key features like annual income, gender, and spending score.
+
+Insights and applications:
+ Provided actionable insights based on customer segmentation.
+ Suggested targeted marketing strategies and personalized offers for each identified customer segment.
+
+Results
+ Optimal Number of Clusters: Determined based on SSD and silhouette score analysis.
+ Customer Segments: Defined distinct segments with unique purchasing behaviors and characteristics.
+ Visualizations: Enabled better understanding of customer distribution and segment differentiation through 3D plots.
+  Usage
+The segmentation results can be used for targeted marketing personalized customer engagement 
+and strategic decision-making to enhance customer satisfaction and increase sales.
+
+Dependencies
+Python libraries: Scikit-learn, Matplotlib, Pandas
