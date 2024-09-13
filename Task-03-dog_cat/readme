@@ -1,4 +1,4 @@
-"Image Classification with Support Vector Machines (SVM)"
+# Image Classification with Support Vector Machines (SVM)
 Image classification is a core task in computer vision, involving the assignment of predefined labels to images based on their visual content. 
 This task has applications in object recognition, facial recognition, autonomous vehicles, and medical imaging.
 
