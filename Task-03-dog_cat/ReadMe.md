@@ -19,6 +19,7 @@ Transfer Learning: Using pre-trained deep learning models (e.g., VGG16) to extra
 **Random Forests and Decision Trees:** Machine learning techniques that can be used after extracting features from images.
 
 **Why Use SVMs for Image Classification?**
+
 High Performance: SVMs perform well on small to medium-sized datasets, particularly when the data is high-dimensional.
 Feature-Based Classification: SVMs are suitable for classification tasks where deep features are extracted from images using models like VGG16.
 Kernel Trick: The use of non-linear kernels, such as the Radial Basis Function (RBF) kernel, allows SVMs to classify complex, non-linear data.
