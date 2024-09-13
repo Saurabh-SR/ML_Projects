@@ -13,10 +13,12 @@ In the context of image classification, SVMs are applied to extracted image feat
 This makes them effective when combined with techniques like feature extraction from deep learning models such as VGG16.
 
 # Other Popular Techniques for Image Classification:
-Convolutional Neural Networks (CNNs): Deep learning models that are highly effective at learning spatial hierarchies and patterns in images.
+**Convolutional Neural Networks (CNNs):** Deep learning models that are highly effective at learning spatial hierarchies and patterns in images.
 Transfer Learning: Using pre-trained deep learning models (e.g., VGG16) to extract features from images, followed by fine-tuning on a target dataset.
-Random Forests and Decision Trees: Machine learning techniques that can be used after extracting features from images.
-Why Use SVMs for Image Classification?
+
+**Random Forests and Decision Trees:** Machine learning techniques that can be used after extracting features from images.
+
+**Why Use SVMs for Image Classification?**
 High Performance: SVMs perform well on small to medium-sized datasets, particularly when the data is high-dimensional.
 Feature-Based Classification: SVMs are suitable for classification tasks where deep features are extracted from images using models like VGG16.
 Kernel Trick: The use of non-linear kernels, such as the Radial Basis Function (RBF) kernel, allows SVMs to classify complex, non-linear data.
